@@ -1,13 +1,12 @@
 const CONFIG = {
   // profile setting
   profile: {
-    name: 'morethan-log',
+    name: 'Cameron Stewart',
     image: '/profile.png',
-    discription: 'frontend developer',
+    discription: 'Video Production',
     linkedin: 'morethanmin',
-    email: 'morethanmin.dev@gmail.com',
-    github: 'morethanmin',
-    instagram: 'more_dev_min',
+    email: 'cameron@cdsvisuals.com',
+    instagram: 'camerondstewart',
   },
   projects: [
     {
@@ -17,8 +16,8 @@ const CONFIG = {
   ],
   // blog setting
   blog: {
-    title: 'morethan-log',
-    description: 'welcome to morethan-log!',
+    title: 'Cameron Stewart',
+    description: 'This is where I post projects and unfiltered behind the scenes.',
   },
 
   // CONFIG configration
@@ -33,9 +32,7 @@ const CONFIG = {
 
   // notion configuration
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
-    // if you prefer not to make your database public, use this!!!
-    accessToken: process.env.NOTION_ACCESS_TOKEN
+    pageId: process.env.57733a9f5b7f455c88ef35112395e898,
   },
 
   // plugin configuration
